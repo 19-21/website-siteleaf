@@ -42,3 +42,4 @@ exclude:
 sass:
   sass_dir: assets/styles/
   style: compressed
+metadesc: 19—21
