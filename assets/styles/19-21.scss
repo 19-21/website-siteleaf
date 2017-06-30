@@ -153,35 +153,3 @@ ul, li {
   background-position: center center;
   filter: contrast(1.5);
 }
-
-.image-1 .image {
-  background-image: url(../images/office-1.jpg);
-}
-
-.image-2 .image {
-  background-image: url(../images/office-2.jpg);
-}
-
-.image-3 .image {
-  background-image: url(../images/office-3.jpg);
-}
-
-.image-4 .image {
-  background-image: url(../images/office-4.jpg);
-}
-
-.colour-1 {
-  --primary-color: darkred;
-}
-
-.colour-2 {
-  --primary-color: midnightblue;
-}
-
-.colour-3 {
-  --primary-color: black;
-}
-
-.colour-4 {
-  --primary-color: darkgreen;
-}
