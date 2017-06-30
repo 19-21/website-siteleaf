@@ -28,6 +28,7 @@ defaults:
     type: tenants
   values:
     url: ''
+    column: ''
 permalink: pretty
 livereload: true
 exclude:
