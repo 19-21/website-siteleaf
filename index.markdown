@@ -8,6 +8,6 @@ address text: |
   Johnston Street,
 
   Collingwood
-map url: 'https://goo.gl/maps/njDdtTRqxt12'
+map url: https://goo.gl/maps/njDdtTRqxt12
 ---
 
