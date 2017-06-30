@@ -31,7 +31,6 @@ defaults:
     column: ''
     metadesc: ''
 permalink: pretty
-#livereload: true
 exclude:
 - Gemfile.lock
 - Gemfile
