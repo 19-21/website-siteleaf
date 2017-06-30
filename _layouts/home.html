@@ -1,0 +1,100 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>19-21 Johnston Street, Collingwood</title>
+    <link rel="stylesheet" href="assets/css/19-21.css">
+    <script type="text/javascript">
+      var randColour = Math.floor(Math.random() * 4) + 1,
+          randImage = Math.floor(Math.random() * 4) + 1;
+      var colour = "colour-" + randColour;
+      var image = "image-" + randImage;
+      document.addEventListener("DOMContentLoaded", function(event) {
+        var body = document.getElementById("body");
+        body.classList.add(colour);
+        body.classList.add(image);
+      });
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-98625420-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </head>
+  <body id="body" class="block-colour">
+    <section class="section section__a block-colour">
+
+      <div class="title column">
+        <h1 class="title__text block-colour image reverse-text">
+          <a href="{{ page['map url'] }}">
+            {{ page['address text'] | markdownify }}
+        </a>
+        </h1>
+      </div><!-- title -->
+
+      <div class="tenants column">
+        <ul class="tenants-list">
+          <li class="tenants-list__tenant">
+            <a href="http://thegoodcopy.com.au" class="tenants-list__link block-colour image reverse-text">The Good Copy</a>
+          </li>
+          <li class="tenants-list__tenant">
+            <a href="http://lessandmore.com.au/" class="tenants-list__link block-colour image reverse-text">Less and More</a>
+          <li class="tenants-list__tenant">
+            <a href="https://www.rooftopcinema.com.au/" class="tenants-list__link block-colour image reverse-text">Rooftop Cinema</a>
+          </li>
+        </ul>
+      </div><!-- tenants column -->
+
+      <div class="tenants column">
+        <ul class="tenants-list">
+          <li class="tenants-list__tenant">
+            <a href="http://www.acclaimmag.com/" class="tenants-list__link block-colour image reverse-text">Acclaim Magazine</a>
+          </li>
+          <li class="tenants-list__tenant">
+            <a href="http://archetypemedia.com.au/" class="tenants-list__link block-colour image reverse-text">Archetype Media</a>
+          </li>
+        </ul>
+      </div><!-- tenants column -->
+      <div class="tenants column">
+        <ul class="tenants-list">
+          <li class="tenants-list__tenant">
+            <a href="http://www.advancedquantumsolutions.com/" class="tenants-list__link block-colour image reverse-text">AQS</a>
+          </li>
+          <li class="tenants-list__tenant">
+            <a href="http://cinch.is/" class="tenants-list__link block-colour image reverse-text">Cinch</a>
+          </li>
+          <li class="tenants-list__tenant">
+            <a href="http://kareenclark.com/" class="tenants-list__link block-colour image reverse-text">Kareen Clark</a>
+          </li>
+          <li class="tenants-list__tenant">
+            <a href="http://openseason.com.au/" class="tenants-list__link block-colour image reverse-text">Open Season</a>
+          </li>
+          <li class="tenants-list__tenant">
+            <a href="https://theplatoproject.com/" class="tenants-list__link block-colour image reverse-text">The Plato Project</a>
+          </li>
+          <li class="tenants-list__tenant">
+            <a href="http://public-office.info/" class="tenants-list__link block-colour image reverse-text">Public Office</a>
+          </li>
+        </ul>
+      </div><!-- tenants column -->
+    </section><!-- section__a -->
+
+    <section class="section section__b block-colour image">
+      <div class="bookings column">
+        <a class="bookings__text" href="http://www.creativespaces.net.au/find-a-space/19-21-johnston-st">
+          <p>Event bookings</p>
+        </a>
+      </div>
+    </section><!-- section__b -->
+  </body>
+</html>
