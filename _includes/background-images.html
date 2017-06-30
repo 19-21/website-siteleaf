@@ -1,5 +1,8 @@
 <style>
-  .image-1 .image {
-    background-image: url(../images/office-1.jpg);
+
+ {% for image in page["background images"] %}
+  .image-{{ forloop.index }} .image {
+    background-image: url({{ image }});
   }
+{% endfor %}
 </style>

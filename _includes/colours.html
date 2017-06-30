@@ -1,15 +1,8 @@
-.colour-1 {
-  --primary-color: darkred;
-}
+<style>
+ {% for colour in page.colours %}
+  .colour-{{ forloop.index }} {
+    --primary-color: {{ colour }};
+  }
+{% endfor %}
 
-.colour-2 {
-  --primary-color: midnightblue;
-}
-
-.colour-3 {
-  --primary-color: black;
-}
-
-.colour-4 {
-  --primary-color: darkgreen;
-}
+</style>
