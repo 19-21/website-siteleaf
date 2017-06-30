@@ -29,7 +29,6 @@ defaults:
   values:
     website: ''
     column: ''
-    metadesc: ''
 permalink: pretty
 exclude:
 - Gemfile.lock
@@ -43,3 +42,4 @@ exclude:
 sass:
   sass_dir: assets/styles/
   style: compressed
+metadesc: ''
