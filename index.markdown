@@ -13,6 +13,11 @@ background images:
 - "/uploads/office-2.jpg"
 - "/uploads/office-3.jpg"
 - "/uploads/office-4.jpg"
+colours:
+- "#8B0000"
+- "#191970"
+- "#000000"
+- "#006400"
 layout: home
 ---
 
