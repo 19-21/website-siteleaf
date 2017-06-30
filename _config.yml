@@ -29,6 +29,7 @@ defaults:
   values:
     website: ''
     column: ''
+    metadesc: ''
 permalink: pretty
 #livereload: true
 exclude:
