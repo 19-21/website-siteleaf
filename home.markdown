@@ -1,12 +1,13 @@
 ---
 title: Home
 date: 2017-06-30 00:00:00 Z
-Address:
+address:
 - |
   19—21
 
   Johnston Street,
 
   Collingwood
+map url: 
 ---
 
