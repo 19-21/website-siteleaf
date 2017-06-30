@@ -1,0 +1,9 @@
+<div class="tenants column">
+    <ul class="tenants-list">
+        {% for tenant in include.tenants %}
+        <li class="tenants-list__tenant">
+            <a target="_blank" href="{{ tenant.website }}" class="tenants-list__link block-colour image reverse-text">{{ tenant.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div><!-- tenants column -->

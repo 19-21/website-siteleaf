@@ -27,10 +27,10 @@ defaults:
     path: ''
     type: tenants
   values:
-    url: ''
+    website: ''
     column: ''
 permalink: pretty
-livereload: true
+#livereload: true
 exclude:
 - Gemfile.lock
 - Gemfile
