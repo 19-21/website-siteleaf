@@ -8,6 +8,9 @@ collections:
   tenants:
     title: Tenants
     output: true
+  parrots:
+    title: Parrots
+    output: true
   uploads:
     title: Uploads
     output: true
