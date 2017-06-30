@@ -1,6 +1,6 @@
     <script type="text/javascript">
-      var randColour = Math.floor(Math.random() * 4) + 1,
-          randImage = Math.floor(Math.random() * 4) + 1;
+      var randColour = Math.floor(Math.random() * {{ page.colours | size }}) + 1,
+          randImage = Math.floor(Math.random() * {{ page.home | size }}) + 1;
       var colour = "colour-" + randColour;
       var image = "image-" + randImage;
       document.addEventListener("DOMContentLoaded", function(event) {
