@@ -2,9 +2,6 @@
 title: 19-21 Website
 timezone: UTC
 collections:
-  parrots:
-    title: Parrots
-    output: true
   posts:
     title: Posts
     output: true
