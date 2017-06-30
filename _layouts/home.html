@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>19-21 Johnston Street, Collingwood</title>
+    <link rel="stylesheet" href="/assets/styles/19-21.css">
+    {% include scripts.html %}
+  </head>
+  <body id="body" class="block-colour">
+    <section class="section section__a block-colour">
+
+      <div class="title column">
+        <h1 class="title__text block-colour image reverse-text">
+          <a href="{{ page['map url'] }}" target="_blank">
+            {{ page['address text'] | markdownify }}
+        </a>
+        </h1>
+      </div><!-- title -->
+
+      {% assign column_1 = site.tenants | where: 'column', 1 | sort: position %}
+      {% include tenant.html tenants=column_1 %}
+
+      {% assign column_2 = site.tenants | where: 'column', 2 | sort: position %}
+      {% include tenant.html tenants=column_2 %}
+
+      {% assign column_3 = site.tenants | where: 'column', 3 | sort: position %}
+      {% include tenant.html tenants=column_3 %}
+
+    </section><!-- section__a -->
+    {% include bookings.html %}
+  </body>
+</html>
