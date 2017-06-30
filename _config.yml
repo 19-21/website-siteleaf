@@ -30,7 +30,6 @@ defaults:
     website: ''
     column: ''
 permalink: pretty
-#livereload: true
 exclude:
 - Gemfile.lock
 - Gemfile
